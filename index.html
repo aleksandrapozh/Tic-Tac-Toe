@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Yac-Toe</title>
+    <title>Tic-Tac-Toe</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>Tic-Tac-Toe</h1>
+    <div class="controls">
+        <div class="input-group">
+            <input type="text" id="player1-input" placeholder="Player 1 (X)" value="Player 1">
+            <input type="text" id="player2-input" placeholder="Player 2 (O)" value="Player 2">
+        </div>
+        <button id="restart-btn">Start / Restore</button>
+    </div>
     <div id="message"></div>
     <div id="gameboard"></div>
     <script src="script.js"></script>
